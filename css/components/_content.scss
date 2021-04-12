@@ -1,0 +1,66 @@
+.first,
+.second,
+.check-list {
+    padding: 0 3rem;
+}
+
+.first-title,
+.second-title,
+.list-heading {
+    @extend %roboto-bold;
+    color: #42415B;
+}
+
+.first-title {
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.second-title {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.list-heading {
+    font-size: 20px;
+    line-height: 31px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.first-paraghraph,
+.second-paraghraph {
+    @extend %font-roboto;
+}
+
+.first-paraghraph {
+    color: #170307;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.second-paraghraph {
+    color: #42415B;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .first,
+    .second,
+    .check-list {
+        padding: 0;
+    }
+    .first-title {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .second-title {
+        font-size: 22px;
+        line-height: 37px;
+    }
+    .list-heading {
+        font-size: 20px;
+        line-height: 31px;
+    }
+}
