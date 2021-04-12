@@ -14,9 +14,17 @@
   src: url(../fonts/Roboto-Medium.woff) format("woff");
   font-weight: 500;
   font-style: normal; }
+.hero-wrapper .main-subtitle {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0; }
+
 .header-nav .header-nav-item,
-.header-nav .header-nav-link, .quote-btn {
+.header-nav .header-nav-link, .quote-btn, .hero-wrapper .main-heading {
   font-family: robotobold, sans-serif;
+  letter-spacing: 0; }
+
+.hero-quote-btn {
+  font-family: robotomedium, sans-serif;
   letter-spacing: 0; }
 
 * {
@@ -112,5 +120,54 @@
     font-size: 12px;
     line-height: 20px; } }
 /* End Navbar */
+/* Start Header */
+.hero-quote-btn {
+  height: 60px;
+  width: 200px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  border-radius: 4px;
+  background-color: #F1A153;
+  color: #fff;
+  border: none;
+  text-transform: uppercase; }
+
+.hero-wrapper {
+  background: url("../images/hero-img.jpg");
+  background-size: cover;
+  background-position: center; }
+  .hero-wrapper .main-heading {
+    color: #fff;
+    text-align: left;
+    font-size: 66px;
+    line-height: 80px;
+    margin-top: 120px; }
+  .hero-wrapper .main-subtitle {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 16px; }
+
+@media screen and (max-width: 1024px) {
+  .hero-wrapper .main-heading {
+    text-align: center;
+    font-size: 38px;
+    line-height: 48px;
+    padding: 0px 14px; }
+  .hero-wrapper .main-subtitle {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 14px;
+    margin-top: 40px; }
+  .hero-wrapper .btn-container {
+    display: table;
+    margin: 0 auto; } }
+@media screen and (max-width: 768px) {
+  .hero-quote-btn {
+    width: 290px; } }
+/* End Header */
 
 /*# sourceMappingURL=main.css.map */
