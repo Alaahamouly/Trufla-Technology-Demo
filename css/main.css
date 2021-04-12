@@ -14,12 +14,12 @@
   src: url(../fonts/Roboto-Medium.woff) format("woff");
   font-weight: 500;
   font-style: normal; }
-.hero-wrapper .main-subtitle {
+.hero-wrapper .main-subtitle, .team-wrapper .team-box .title {
   font-family: Roboto, sans-serif;
   letter-spacing: 0; }
 
 .header-nav .header-nav-item,
-.header-nav .header-nav-link, .quote-btn, .hero-wrapper .main-heading {
+.header-nav .header-nav-link, .quote-btn, .hero-wrapper .main-heading, .team-wrapper .team-title, .team-wrapper .team-box .name, .team-wrapper .team-box .number, .team-wrapper .team-box .email, .team-wrapper .team-box .linkedin {
   font-family: robotobold, sans-serif;
   letter-spacing: 0; }
 
@@ -169,5 +169,44 @@
   .hero-quote-btn {
     width: 290px; } }
 /* End Header */
+/* Start Team*/
+.team-wrapper {
+  background-color: #F3F3FF; }
+  .team-wrapper .team-title {
+    color: #42415B;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center; }
+  .team-wrapper .team-box {
+    border-style: none;
+    border-radius: 4px; }
+    .team-wrapper .team-box .name {
+      color: #42415B;
+      font-size: 20px;
+      letter-spacing: 0;
+      line-height: 31px; }
+    .team-wrapper .team-box .title {
+      color: #42415B;
+      font-size: 20px;
+      letter-spacing: 0;
+      line-height: 26px; }
+    .team-wrapper .team-box .number {
+      color: #DB8939;
+      font-size: 20px;
+      letter-spacing: 0;
+      line-height: 20px; }
+    .team-wrapper .team-box .email {
+      color: #DB8939;
+      font-size: 20px;
+      letter-spacing: 0;
+      line-height: 20px;
+      text-transform: uppercase; }
+    .team-wrapper .team-box .linkedin {
+      color: #DB8939;
+      font-size: 20px;
+      letter-spacing: 0;
+      line-height: 20px; }
+
+/* End Team */
 
 /*# sourceMappingURL=main.css.map */

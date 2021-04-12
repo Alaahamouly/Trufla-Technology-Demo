@@ -1,0 +1,50 @@
+.team-wrapper {
+    background-color: #F3F3FF;
+    .team-title {
+        color: #42415B;
+        @extend %roboto-bold;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+    }
+    .team-box {
+        border-style: none;
+        border-radius: 4px;
+        .name {
+            color: #42415B;
+            @extend %roboto-bold;
+            font-size: 20px;
+            letter-spacing: 0;
+            line-height: 31px;
+        }
+        .title {
+            color: #42415B;
+            @extend %font-roboto;
+            font-size: 20px;
+            letter-spacing: 0;
+            line-height: 26px;
+        }
+        .number {
+            color: #DB8939;
+            @extend %roboto-bold;
+            font-size: 20px;
+            letter-spacing: 0;
+            line-height: 20px;
+        }
+        .email {
+            color: #DB8939;
+            @extend %roboto-bold;
+            font-size: 20px;
+            letter-spacing: 0;
+            line-height: 20px;
+            text-transform: uppercase;
+        }
+        .linkedin {
+            color: #DB8939;
+            @extend %roboto-bold;
+            font-size: 20px;
+            letter-spacing: 0;
+            line-height: 20px;
+        }
+    }
+}
