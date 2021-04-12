@@ -14,11 +14,103 @@
   src: url(../fonts/Roboto-Medium.woff) format("woff");
   font-weight: 500;
   font-style: normal; }
+.header-nav .header-nav-item,
+.header-nav .header-nav-link, .quote-btn {
+  font-family: robotobold, sans-serif;
+  letter-spacing: 0; }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 /* End Global */
+/* Start Navbar */
+.header-row {
+  padding: 20px 0px; }
+
+.header-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  height: 50px; }
+  .header-nav .header-nav-item,
+  .header-nav .header-nav-link {
+    font-size: 14px;
+    line-height: 16px; }
+  .header-nav .header-nav-item,
+  .header-nav .header-nav-link,
+  .header-nav .header-nav-link:hover {
+    color: #42415B; }
+  .header-nav .header-nav-item {
+    display: inline;
+    padding-right: 10px; }
+  .header-nav .header-nav-link {
+    text-decoration: none;
+    text-transform: uppercase; }
+
+.quote-btn {
+  height: 50px;
+  width: 160px;
+  font-size: 14px;
+  line-height: 20px; }
+
+.quote-btn {
+  border-radius: 4px;
+  background-color: #F1A153;
+  color: #fff;
+  border: none;
+  text-transform: uppercase; }
+
+.logo-placeholder {
+  height: 40px;
+  width: 116px; }
+
+.phone-icon {
+  width: 16px;
+  height: 16px; }
+
+.navbar {
+  padding: 0; }
+
+.nav-container {
+  background-color: #9CA2C6;
+  height: 50px;
+  padding: 0; }
+
+@media screen and (max-width: 1024px) {
+  .header-nav {
+    justify-content: flex-end; }
+    .header-nav #payments,
+    .header-nav #claims {
+      display: none; } }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .quote-btn {
+    height: 40px; }
+
+  .header-row {
+    padding: 10px 0px; } }
+@media screen and (max-width: 768px) {
+  .logo-placeholder {
+    height: 27px;
+    width: 75px; }
+
+  .phone-icon {
+    width: 22px;
+    height: 22px;
+    cursor: pointer; }
+
+  .header-row {
+    padding: 9px 0px; }
+
+  .quote-btn {
+    height: 34px;
+    width: 90px;
+    font-family: robotomedium, sans-serif;
+    letter-spacing: 0;
+    font-size: 12px;
+    line-height: 20px; } }
+/* End Navbar */
 
 /*# sourceMappingURL=main.css.map */
